@@ -44,8 +44,6 @@ main.BackgroundColor3 = Color3.fromRGB(126, 126, 126)
 main.Position = UDim2.new(0.325670481, 0, 0.322203666, 0)
 main.Size = UDim2.new(0, 350, 0, 277)
 main.Style = Enum.FrameStyle.RobloxRound
-main.Active = true
-main.Draggable = true
 
 scroll.Name = "scroll"
 scroll.Parent = main
