@@ -1,4 +1,4 @@
--efe is skid
+--efe is skid
 
 		game:GetService("StarterGui"):SetCore("SendNotification",{
 			Title = "Efe`s script hub";
