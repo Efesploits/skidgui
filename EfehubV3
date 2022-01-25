@@ -1,13 +1,14 @@
--- efe is skid btw ngl
--- Version: 3.2
+-- so skid ngl
+-- Version: 3
 
 -- Instances:
 
-local EfeHubV3 = Instance.new("ScreenGui")
+local EfehubV3 = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local ScriptsF = Instance.new("Frame")
 local GaleFighter = Instance.new("TextButton")
 local SkateBoard = Instance.new("TextButton")
+local neptunv = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
 local CreditsF = Instance.new("Frame")
 local me = Instance.new("TextLabel")
@@ -21,19 +22,17 @@ local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
-EfeHubV3.Name = "Efe Hub V3"
-EfeHubV3.Parent = game.CoreGui
-EfeHubV3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+EfehubV3.Name = "EfehubV3"
+EfehubV3.Parent = game.CoreGui
+EfehubV3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 main.Name = "main"
-main.Parent = EfeHubV3
+main.Parent = EfehubV3
 main.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
 main.BorderColor3 = Color3.fromRGB(76, 76, 76)
-main.Position = UDim2.new(0.160633489, 0, 0.0834724531, 0)
+main.Position = UDim2.new(0.301606297, 0, 0.0868113488, 0)
 main.Size = UDim2.new(0, 480, 0, 495)
-main.Active = true
-main.Draggable = true
-
+main.a
 ScriptsF.Name = "ScriptsF"
 ScriptsF.Parent = main
 ScriptsF.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
@@ -63,6 +62,17 @@ SkateBoard.Font = Enum.Font.Arial
 SkateBoard.Text = "Skate Board"
 SkateBoard.TextColor3 = Color3.fromRGB(0, 0, 0)
 SkateBoard.TextSize = 17.000
+
+neptunv.Name = "neptun v"
+neptunv.Parent = ScriptsF
+neptunv.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+neptunv.BorderColor3 = Color3.fromRGB(66, 66, 66)
+neptunv.Position = UDim2.new(0, 0, 0.353773594, 0)
+neptunv.Size = UDim2.new(0, 380, 0, 52)
+neptunv.Font = Enum.Font.Arial
+neptunv.Text = "Neptunian V"
+neptunv.TextColor3 = Color3.fromRGB(0, 0, 0)
+neptunv.TextSize = 17.000
 
 Frame.Parent = main
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -164,7 +174,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function GDZH_fake_script() -- GaleFighter.LocalScript 
+local function MMRB_fake_script() -- GaleFighter.LocalScript 
 	local script = Instance.new('LocalScript', GaleFighter)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2675,8 +2685,8 @@ local function GDZH_fake_script() -- GaleFighter.LocalScript
 		-------------------------------------------------------
 	end)
 end
-coroutine.wrap(GDZH_fake_script)()
-local function JTLQBK_fake_script() -- SkateBoard.LocalScript 
+coroutine.wrap(MMRB_fake_script)()
+local function CVBPY_fake_script() -- SkateBoard.LocalScript 
 	local script = Instance.new('LocalScript', SkateBoard)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2705,8 +2715,16 @@ local function JTLQBK_fake_script() -- SkateBoard.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/sauceskate.lua"))()
 	end)
 end
-coroutine.wrap(JTLQBK_fake_script)()
-local function DMHOW_fake_script() -- Frame.LocalScript 
+coroutine.wrap(CVBPY_fake_script)()
+local function IAGUD_fake_script() -- neptunv.LocalScript 
+	local script = Instance.new('LocalScript', neptunv)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/skidgui/main/neptun_v", true))()
+	end)
+end
+coroutine.wrap(IAGUD_fake_script)()
+local function VDAISH_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -2719,8 +2737,8 @@ local function DMHOW_fake_script() -- Frame.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(DMHOW_fake_script)()
-local function WCKWFO_fake_script() -- EfeReanimationV1.LocalScript 
+coroutine.wrap(VDAISH_fake_script)()
+local function NRNYYNQ_fake_script() -- EfeReanimationV1.LocalScript 
 	local script = Instance.new('LocalScript', EfeReanimationV1)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2729,8 +2747,8 @@ local function WCKWFO_fake_script() -- EfeReanimationV1.LocalScript
 	
 	
 end
-coroutine.wrap(WCKWFO_fake_script)()
-local function USLX_fake_script() -- Scripts.LocalScript 
+coroutine.wrap(NRNYYNQ_fake_script)()
+local function JMDJXU_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2740,8 +2758,8 @@ local function USLX_fake_script() -- Scripts.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(USLX_fake_script)()
-local function YVKM_fake_script() -- Credits.LocalScript 
+coroutine.wrap(JMDJXU_fake_script)()
+local function SHYNS_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2751,8 +2769,8 @@ local function YVKM_fake_script() -- Credits.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(YVKM_fake_script)()
-local function IJLKAL_fake_script() -- Reanimations.LocalScript 
+coroutine.wrap(SHYNS_fake_script)()
+local function TPVO_fake_script() -- Reanimations.LocalScript 
 	local script = Instance.new('LocalScript', Reanimations)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2762,9 +2780,9 @@ local function IJLKAL_fake_script() -- Reanimations.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(IJLKAL_fake_script)()
-local function GSLPO_fake_script() -- EfeHubV3.LocalScript 
-	local script = Instance.new('LocalScript', EfeHubV3)
+coroutine.wrap(TPVO_fake_script)()
+local function UHAHV_fake_script() -- EfehubV3.LocalScript 
+	local script = Instance.new('LocalScript', EfehubV3)
 
 	local MainFrame = script.Parent.main
 	local Opened = false
@@ -2787,4 +2805,4 @@ local function GSLPO_fake_script() -- EfeHubV3.LocalScript
 	end)
 	
 end
-coroutine.wrap(GSLPO_fake_script)()
+coroutine.wrap(UHAHV_fake_script)()
