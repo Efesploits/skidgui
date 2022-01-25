@@ -7,7 +7,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/GelatekV2/main/LoadLibrary.lua"))()
 
 _G.Fling = true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/Tutorial/main/Main.lua"))()
 --Discord Creterisk#2958 (not 2003boobear's discord)
 -------------------------------------------------------
 
