@@ -1,6 +1,9 @@
--- so skid ngl
--- Version: 3.2
-
+-- Efe hub
+-- Version: 3.5
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Loaded Efe`s Hub";
+	Text = "my discord is Efe skid#1981"; 
+})
 -- Instances:
 
 local EfehubV3 = Instance.new("ScreenGui")
@@ -9,6 +12,7 @@ local ScriptsF = Instance.new("Frame")
 local GaleFighter = Instance.new("TextButton")
 local SkateBoard = Instance.new("TextButton")
 local neptunv = Instance.new("TextButton")
+local Memeus = Instance.new("TextButton")
 local Frame = Instance.new("Frame")
 local CreditsF = Instance.new("Frame")
 local me = Instance.new("TextLabel")
@@ -41,7 +45,6 @@ ScriptsF.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
 ScriptsF.BorderColor3 = Color3.fromRGB(76, 76, 76)
 ScriptsF.Position = UDim2.new(0.207089007, 0, 0.100278243, 0)
 ScriptsF.Size = UDim2.new(0, 380, 0, 424)
-ScriptsF.Visible = false
 
 GaleFighter.Name = "Gale Fighter"
 GaleFighter.Parent = ScriptsF
@@ -76,6 +79,17 @@ neptunv.Text = "Neptunian V"
 neptunv.TextColor3 = Color3.fromRGB(0, 0, 0)
 neptunv.TextSize = 17.000
 
+Memeus.Name = "Memeus"
+Memeus.Parent = ScriptsF
+Memeus.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
+Memeus.BorderColor3 = Color3.fromRGB(66, 66, 66)
+Memeus.Position = UDim2.new(0, 0, 0.535377383, 0)
+Memeus.Size = UDim2.new(0, 380, 0, 52)
+Memeus.Font = Enum.Font.Arial
+Memeus.Text = "Memeus 2.5"
+Memeus.TextColor3 = Color3.fromRGB(0, 0, 0)
+Memeus.TextSize = 17.000
+
 Frame.Parent = main
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BorderSizePixel = 0
@@ -88,6 +102,7 @@ CreditsF.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
 CreditsF.BorderColor3 = Color3.fromRGB(76, 76, 76)
 CreditsF.Position = UDim2.new(0.207089007, 0, 0.100278243, 0)
 CreditsF.Size = UDim2.new(0, 380, 0, 424)
+CreditsF.Visible = false
 
 me.Name = "me"
 me.Parent = CreditsF
@@ -128,7 +143,7 @@ Scripts.Name = "Scripts"
 Scripts.Parent = Frame_2
 Scripts.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
 Scripts.BorderColor3 = Color3.fromRGB(66, 66, 66)
-Scripts.Position = UDim2.new(0.0641665459, 0, 0.601733088, 0)
+Scripts.Position = UDim2.new(0.0641665459, 0, 0.690154135, 0)
 Scripts.Size = UDim2.new(0, 86, 0, 65)
 Scripts.Font = Enum.Font.GothamBlack
 Scripts.Text = "Scripts"
@@ -141,7 +156,7 @@ Credits.Name = "Credits"
 Credits.Parent = Frame_2
 Credits.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
 Credits.BorderColor3 = Color3.fromRGB(45, 45, 45)
-Credits.Position = UDim2.new(0.0641665682, 0, 0.179919124, 0)
+Credits.Position = UDim2.new(0.0641665682, 0, 0.224129647, 0)
 Credits.Size = UDim2.new(0, 86, 0, 65)
 Credits.Font = Enum.Font.GothamBlack
 Credits.Text = "Credits"
@@ -154,7 +169,7 @@ Reanimations.Name = "Reanimations"
 Reanimations.Parent = Frame_2
 Reanimations.BackgroundColor3 = Color3.fromRGB(66, 66, 66)
 Reanimations.BorderColor3 = Color3.fromRGB(66, 66, 66)
-Reanimations.Position = UDim2.new(0.0641668513, 0, 0.396761209, 0)
+Reanimations.Position = UDim2.new(0.0541668497, 0, 0.453603327, 0)
 Reanimations.Size = UDim2.new(0, 86, 0, 64)
 Reanimations.Font = Enum.Font.GothamBlack
 Reanimations.Text = "Reanimations"
@@ -176,7 +191,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function MMRB_fake_script() -- GaleFighter.LocalScript 
+local function NRLLAUQ_fake_script() -- GaleFighter.LocalScript 
 	local script = Instance.new('LocalScript', GaleFighter)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2687,8 +2702,8 @@ local function MMRB_fake_script() -- GaleFighter.LocalScript
 		-------------------------------------------------------
 	end)
 end
-coroutine.wrap(MMRB_fake_script)()
-local function CVBPY_fake_script() -- SkateBoard.LocalScript 
+coroutine.wrap(NRLLAUQ_fake_script)()
+local function USBVWJ_fake_script() -- SkateBoard.LocalScript 
 	local script = Instance.new('LocalScript', SkateBoard)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2717,16 +2732,24 @@ local function CVBPY_fake_script() -- SkateBoard.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/saucekid/scripts/main/sauceskate.lua"))()
 	end)
 end
-coroutine.wrap(CVBPY_fake_script)()
-local function IAGUD_fake_script() -- neptunv.LocalScript 
+coroutine.wrap(USBVWJ_fake_script)()
+local function OBTVK_fake_script() -- neptunv.LocalScript 
 	local script = Instance.new('LocalScript', neptunv)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/skidgui/main/neptun_v", true))()
 	end)
 end
-coroutine.wrap(IAGUD_fake_script)()
-local function VDAISH_fake_script() -- Frame.LocalScript 
+coroutine.wrap(OBTVK_fake_script)()
+local function EXGLVNN_fake_script() -- Memeus.LocalScript 
+	local script = Instance.new('LocalScript', Memeus)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/skidgui/main/memeus", true))()
+	end)
+end
+coroutine.wrap(EXGLVNN_fake_script)()
+local function AMXXKFA_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
@@ -2739,8 +2762,8 @@ local function VDAISH_fake_script() -- Frame.LocalScript
 		counter = counter + 0.01
 	end
 end
-coroutine.wrap(VDAISH_fake_script)()
-local function NRNYYNQ_fake_script() -- EfeReanimationV1.LocalScript 
+coroutine.wrap(AMXXKFA_fake_script)()
+local function TTYIZGD_fake_script() -- EfeReanimationV1.LocalScript 
 	local script = Instance.new('LocalScript', EfeReanimationV1)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2749,8 +2772,8 @@ local function NRNYYNQ_fake_script() -- EfeReanimationV1.LocalScript
 	
 	
 end
-coroutine.wrap(NRNYYNQ_fake_script)()
-local function JMDJXU_fake_script() -- Scripts.LocalScript 
+coroutine.wrap(TTYIZGD_fake_script)()
+local function ITBM_fake_script() -- Scripts.LocalScript 
 	local script = Instance.new('LocalScript', Scripts)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2760,8 +2783,8 @@ local function JMDJXU_fake_script() -- Scripts.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(JMDJXU_fake_script)()
-local function SHYNS_fake_script() -- Credits.LocalScript 
+coroutine.wrap(ITBM_fake_script)()
+local function MPSPOUC_fake_script() -- Credits.LocalScript 
 	local script = Instance.new('LocalScript', Credits)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2771,8 +2794,8 @@ local function SHYNS_fake_script() -- Credits.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(SHYNS_fake_script)()
-local function TPVO_fake_script() -- Reanimations.LocalScript 
+coroutine.wrap(MPSPOUC_fake_script)()
+local function ATGXR_fake_script() -- Reanimations.LocalScript 
 	local script = Instance.new('LocalScript', Reanimations)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -2782,8 +2805,8 @@ local function TPVO_fake_script() -- Reanimations.LocalScript
 		wait(0.1)
 	end)
 end
-coroutine.wrap(TPVO_fake_script)()
-local function UHAHV_fake_script() -- EfehubV3.LocalScript 
+coroutine.wrap(ATGXR_fake_script)()
+local function ENIFDG_fake_script() -- EfehubV3.LocalScript 
 	local script = Instance.new('LocalScript', EfehubV3)
 
 	local MainFrame = script.Parent.main
@@ -2807,4 +2830,4 @@ local function UHAHV_fake_script() -- EfehubV3.LocalScript
 	end)
 	
 end
-coroutine.wrap(UHAHV_fake_script)()
+coroutine.wrap(ENIFDG_fake_script)()
