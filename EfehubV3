@@ -1,5 +1,5 @@
 -- so skid ngl
--- Version: 3
+-- Version: 3.2
 
 -- Instances:
 
@@ -32,7 +32,9 @@ main.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
 main.BorderColor3 = Color3.fromRGB(76, 76, 76)
 main.Position = UDim2.new(0.301606297, 0, 0.0868113488, 0)
 main.Size = UDim2.new(0, 480, 0, 495)
-main.a
+main.Active = true
+main.Draggable = true
+
 ScriptsF.Name = "ScriptsF"
 ScriptsF.Parent = main
 ScriptsF.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
