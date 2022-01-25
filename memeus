@@ -3,9 +3,11 @@
 -------------------------------------------------------
 --A script By makhail07
 
---This edit by 2003boobear
+--This edit by Efe
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/GelatekV2/main/LoadLibrary.lua"))()
 
+_G.Fling = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/Tutorial/main/Main.lua"))()
 --Discord Creterisk#2958 (not 2003boobear's discord)
 -------------------------------------------------------
 
