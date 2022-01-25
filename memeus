@@ -3,10 +3,9 @@
 -------------------------------------------------------
 --A script By makhail07
 
---This edit by Efe
+--This edit by 2003boobear
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/GelatekV2/main/LoadLibrary.lua"))()
 
-_G.Fling = true
 --Discord Creterisk#2958 (not 2003boobear's discord)
 -------------------------------------------------------
 
