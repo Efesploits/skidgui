@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Efe`s Hub", "DarkTheme")
+local Window = Library.CreateLib("Efe`s Hub", "BloodTheme")
 --sekmeler--
 local Tab1 = Window:NewTab("Credits")
 local Tab2 = Window:NewTab("Reanimation")
@@ -35,6 +35,9 @@ Section1:NewButton("Memeus 2.5", "fully converted by Efe usues galtek load lib",
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/memeus%202.5"))()
 end)
 
+Section1:NewButton("Meme Animations (not fully FE)", "Cool animations in it", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/memeanim"))()
+end)
 --scripts reanimatesiz buttonlar--
 Section2:NewButton("Skate Board", "go skate in real smh", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/skateboard"))()
