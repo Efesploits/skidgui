@@ -11,6 +11,8 @@ local Section = Tab1:NewSection("Credits")
 
 Section:NewLabel("Gui,Script Converting,Reanims : Efe skid#1981")
 
+Section:NewLabel("Script Converting,Reanims : Nendra#2026")
+
 --kategori reanim için--
 local Section4 = Tab2:NewSection("Reanimations")
 
@@ -18,10 +20,15 @@ Section4:NewButton("EfeReanim (Best)", "this is a Default Reanimate", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/skidgui/main/EfeReanimate"))()
 end)
 
+Section4:NewButton("Permanim", "this is a permanim", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/Permanim"))()
+end)
+
 --kategori scripts için--
-local Section1 = Tab3:NewSection("Reanim requiring Scripts")
-local Section2 = Tab3:NewSection("No Reanim requiring Scripts")
---loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/memeus%202.5"))()
+local Section1 = Tab3:NewSection("EfeReanim requiring Scripts")
+local Section2 = Tab3:NewSection("Peranim requiring Scripts")
+local Section3 = Tab3:NewSection("No Reanim requiring Scripts")
+
 --buttonlar scripts için--
 Section1:NewButton("Gale Fighter", "A true Fighter", function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/gale%20fighter"))()
@@ -38,7 +45,11 @@ end)
 Section1:NewButton("Meme Animations (not fully FE)", "Cool animations in it", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/memeanim"))()
 end)
+--waym scripts--
+Section2:NewButton("Techno F A I R Y", "really skid permanim btw ngl", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/technofairy"))()
+end)
 --scripts reanimatesiz buttonlar--
-Section2:NewButton("Skate Board", "go skate in real smh", function()
+Section3:NewButton("Skate Board", "go skate in real smh", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/skateboard"))()
 end)
