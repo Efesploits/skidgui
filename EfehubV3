@@ -8,7 +8,7 @@ local Tab2 = Window:NewTab("Entity Hub Script")
 local Tab3 = Window:NewTab("Credits")
 
 local Section = Tab3:NewSection("Credits")
-local Section2 = Tab2:NewSection("Credits")
+local Section2 = Tab2:NewSection("Entity Hub Script")
 
 Section:NewLabel("Made By:Efe skid#1981")
 
