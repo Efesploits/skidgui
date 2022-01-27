@@ -26,7 +26,7 @@ end)
 
 --kategori scripts için--
 local Section1 = Tab3:NewSection("EfeReanim requiring Scripts")
-local Section2 = Tab3:NewSection("Peranim requiring Scripts")
+local Section2 = Tab3:NewSection("Permanim requiring Scripts")
 local Section3 = Tab3:NewSection("No Reanim requiring Scripts")
 
 --buttonlar scripts için--
