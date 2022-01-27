@@ -1,21 +1,21 @@
 --go use efe hub its dead--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Efe`s Hub Dead", "LightTheme")
+local Window = Library.CreateLib("Efe`s Hub Dead", "BloodTheme")
 --sekmeler--
-local Tab1 = Window:NewTab("CLOSED GO USE ENTITY HUB")
+local Tab1 = Window:NewTab("USE ENTITY HUB")
 local Tab2 = Window:NewTab("Entity Hub Script")
 local Tab3 = Window:NewTab("Credits")
 
-local Section = Tab3:NewSection("Credits")
+local Section1 = Tab3:NewSection("Credits")
 local Section2 = Tab2:NewSection("Entity Hub Script")
-local Section10 = Tab1:NewSection("Use Entity Hub")
+local Section3 = Tab1:NewSection("Use Entity Hub")
 --efe is still best btw
-Section:NewLabel("Made By:Efe skid#1981")
+Section1:NewLabel("Made By:Efe skid#1981")
 
-Section:NewLabel("GoodBye EfeHub we will miss you")
+Section3:NewLabel("GoodBye EfeHub we will miss you")
 
-Section:NewLabel("you can find the new gui in "Entity Hub Script")
+Section2:NewLabel("you can find the new gui in entity hub tab ")
 
 
 Section2:NewButton("NEW Entity Hub", "bye Efe hub", function()
