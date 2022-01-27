@@ -10,7 +10,7 @@ local Tab3 = Window:NewTab("Credits")
 local Section = Tab3:NewSection("Credits")
 local Section2 = Tab2:NewSection("Entity Hub Script")
 local Section10 = Tab1:NewSection("Use Entity Hub")
-
+--efe is still best btw
 Section:NewLabel("Made By:Efe skid#1981")
 
 Section:NewLabel("GoodBye EfeHub we will miss you")
