@@ -43,7 +43,7 @@ if Humanoid.RigType == Enum.HumanoidRigType.R15 then
         Font = Enum.Font.Ubuntu
     });
 return end
-if game.Players.LocalPlayer.Character:FindFirstChild("EfeReanim") or workspace:FindFirstChild("CoolHubTutorial") then
+if game.Players.LocalPlayer.Character:FindFirstChild("EfeReanim") or workspace:FindFirstChild("EfeReanim") then
     game.StarterGui:SetCore("ChatMakeSystemMessage", {
         Text = "[EfeReanim] You are already reanimated! Please reset to unreanimate.",
         Color = Color3.fromRGB(255, 10, 70),
