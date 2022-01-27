@@ -45,6 +45,11 @@ end)
 Section1:NewButton("Meme Animations (not fully FE)", "Cool animations in it", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/memeanim"))()
 end)
+
+Section1:NewButton("Xester The Card Master (still in Dev)", "Not Fully Fe Made by Efe", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/XESTER"))()
+end)
+
 --waym scripts--
 Section2:NewButton("Techno F A I R Y", "really skid permanim btw ngl", function()
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/technofairy"))()
