@@ -1,61 +1,22 @@
 --go use efe hub--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Efe`s Hub", "BloodTheme")
+local Window = Library.CreateLib("Efe`s Hub Dead", "LightTheme")
 --sekmeler--
-local Tab1 = Window:NewTab("Credits")
-local Tab2 = Window:NewTab("Reanimation")
-local Tab3 = Window:NewTab("Scripts")
+local Tab1 = Window:NewTab("CLOSED GO USE ENTITY HUB")
+local Tab2 = Window:NewTab("Entity Hub Script")
+local Tab3 = Window:NewTab("Credits")
 
---yazılar credits için--
-local Section = Tab1:NewSection("Credits")
+local Section = Tab3:NewSection("Credits")
+local Section2 = Tab2:NewSection("Credits")
 
-Section:NewLabel("Gui,Script Converting,Reanims : Efe skid#1981")
+Section:NewLabel("Made By:Efe skid#1981")
 
-Section:NewLabel("Script Converting,Reanims : Nendra#2026")
+Section:NewLabel("GoodBye EfeHub we will miss you")
 
---kategori reanim için--
-local Section4 = Tab2:NewSection("Reanimations")
+Section:NewLabel("you can find the new gui in "Entity Hub Script")
 
-Section4:NewButton("EfeReanim (Best)", "this is a Default Reanimate", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/skidgui/main/EfeReanimate"))()
-end)
 
-Section4:NewButton("Permanim", "this is a permanim", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/Permanim"))()
-end)
-
---kategori scripts için--
-local Section1 = Tab3:NewSection("EfeReanim requiring Scripts")
-local Section2 = Tab3:NewSection("Permanim requiring Scripts")
-local Section3 = Tab3:NewSection("No Reanim requiring Scripts")
-
---buttonlar scripts için--
-Section1:NewButton("Gale Fighter", "A true Fighter", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/gale%20fighter"))()
-end)
-
-Section1:NewButton("Neptunian V", "who knows how to use this sword", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/skidgui/main/neptun_v"))()
-end)
-
-Section1:NewButton("Memeus 2.5", "fully converted by Efe usues galtek load lib", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/memeus%202.5"))()
-end)
-
-Section1:NewButton("Meme Animations (not fully FE)", "Cool animations in it", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/memeanim"))()
-end)
-
-Section1:NewButton("Xester The Card Master (still in Dev)", "Not Fully Fe Made by Efe", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/XESTER"))()
-end)
-
---waym scripts--
-Section2:NewButton("Techno F A I R Y", "really skid permanim btw ngl", function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/technofairy"))()
-end)
---scripts reanimatesiz buttonlar--
-Section3:NewButton("Skate Board", "go skate in real smh", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/scripts/main/skateboard"))()
+Section2:NewButton("NEW Entity Hub", "bye Efe hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efesploits/Entity/main/EntityHub"))()
 end)
