@@ -184,7 +184,7 @@ Character.Animate.Disabled = true
 game:GetService("UserInputService").JumpRequest:connect(function(t)
     if CopyCharacter.Humanoid.FloorMaterial~=Enum.Material.Air then 
         CopyCharacter.Humanoid:ChangeState(Enum.HumanoidStateType.Jumping)
-        game.Players.LocalPlayer.Character.CoolHubTutorial:FindFirstChildOfClass('Humanoid').Sit=false 
+        game.Players.LocalPlayer.Character.EfeReanim:FindFirstChildOfClass('Humanoid').Sit=false 
     end 
 end)
 
